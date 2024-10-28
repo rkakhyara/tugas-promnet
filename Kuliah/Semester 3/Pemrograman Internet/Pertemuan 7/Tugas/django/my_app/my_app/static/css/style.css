@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Montserrat:ital,wght@0,100..900;0,400;1,100..900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Montserrat:ital,wght@0,100..900;0,400;1,100..900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box!important;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background: #dde1e2;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Jua', sans-serif;
+}
+
+.nav-item a:hover {
+    color: #FF6B6B;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-bottom: 2px solid #222;
+}
+
+.title, .job {
+    text-align: center;
+    font-family: 'Montserrat', serif;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.job {
+    color: #FF6B6B;
+    margin-top: 10px;
+}
+
+.contact {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.detail-contact {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Jua', sans-serif;
+}
+
+.detail-contact a {
+    margin-left: 8px;
+    color: #222;
+}
+
+.about-me {
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+    line-height: 1.4;
+}
+
+.desc-about {
+    margin: 15px 100px;
+}
+
+.my-edu, .my-exp, .last-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title-edu, .title-exp, .title-project, .title-skill {
+    text-align: center;
+}
+
+.school, .name {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.school img, .name img {
+    width: 60px;
+    height: 60px;
+    margin-right: 13px;
+}
+
+.detail-edu p, .detail-exp p, .project-list p {
+    line-height: 1.6;
+    font-size: medium;
+}
+
+hr {
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.project-items, .skill-items {
+    list-style: none;
+}
+
+.title-skill {
+    margin-top: 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}

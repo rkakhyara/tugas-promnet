@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rkakhyara {% block title %}{% endblock %}</title>
+
+    {% load static %}
+
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    {% include 'navbar/navbar.html' %}
+    <div class="container">
+        <img src="{% static 'img/rkakhyara.jpg' %}" alt="Profile" class="profile-pic">
+        <h2 class="title">Rakha Akhyara</h2>
+        <h3 class="job">Computer Science Education Student</h3>
+
+        {% block body %}
+        {% endblock %}
+
+        <ul class="contact">
+            <li class="contact-item">
+                <div class="detail-contact">
+                    <i data-feather="phone"></i>
+                    <a href="tel:+6287749422745">+62 8774-9422-745</a>
+                </div>
+            </li>
+            <li class="contact-item">|</li>
+            <li class="contact-item">
+                <div class="detail-contact">
+                    <i data-feather="mail"></i>
+                    <a href="mailto:akhyararakha@gmail.com">akhyararakha@gmail.com</a>
+                </div>
+            </li>
+            <li class="contact-item">|</li>
+            <li class="contact-item">
+                <div class="detail-contact">
+                    <i data-feather="instagram"></i>
+                    <a href="https://www.instagram.com/rkakhyara/" target="_blank">@rkakhyara</a>
+                </div>
+            </li>
+            <li class="contact-item">|</li>
+            <li class="contact-item">
+                <div class="detail-contact">
+                    <i data-feather="linkedin"></i>
+                    <a href="https://www.linkedin.com/in/rakha-akhyara-5b087a275/" target="_blank">Rakha Akhyara</a>
+                </div>
+            </li>
+        </ul>
+        <p class="copyright">&copy; 2024 Rakha Akhyara. All rights reserved.</p>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
